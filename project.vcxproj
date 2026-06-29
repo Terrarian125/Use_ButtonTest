@@ -159,6 +159,7 @@
     <ClInclude Include="Library\Time.h" />
     <ClInclude Include="Source\BootScene.h" />
     <ClInclude Include="Source\global.h" />
+    <ClInclude Include="Source\MovieButtonTest.h" />
     <ClInclude Include="Source\Screen.h" />
     <ClInclude Include="Source\SceneFactory.h" />
     <ClInclude Include="Source\SettingPanel.h" />
@@ -183,6 +184,7 @@
     <ClCompile Include="Library\SceneManager.cpp" />
     <ClCompile Include="Library\Time.cpp" />
     <ClCompile Include="Source\BootScene.cpp" />
+    <ClCompile Include="Source\MovieButtonTest.cpp" />
     <ClCompile Include="Source\newFile.cpp" />
     <ClCompile Include="Source\SceneFactory.cpp" />
     <ClCompile Include="Source\SettingPanel.cpp" />

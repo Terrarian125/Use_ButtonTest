@@ -35,7 +35,7 @@ TestScene::TestScene()
     //NewGameボタン
     auto b00 = new GuiButton(bx, by, bw, bh, "NewGame");
     b00->SetImage(btnImg_b00);
-    b00->onClick = []() {};
+    b00->onClick = []() {SceneManager::ChangeScene("MOVIE");};
     buttons.push_back(b00);
 
     //Continueボタン

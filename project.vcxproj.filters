@@ -65,6 +65,9 @@
     <ClCompile Include="Source\SettingPanel.cpp">
       <Filter>Scene\[00]TestScene</Filter>
     </ClCompile>
+    <ClCompile Include="Source\MovieButtonTest.cpp">
+      <Filter>Scene\[01]NewGame</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Screen.h" />
@@ -145,6 +148,9 @@
     <ClInclude Include="Source\SettingPanel.h">
       <Filter>Scene\[00]TestScene</Filter>
     </ClInclude>
+    <ClInclude Include="Source\MovieButtonTest.h">
+      <Filter>Scene\[01]NewGame</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Library">
@@ -161,6 +167,9 @@
     </Filter>
     <Filter Include="Scene\[00]TestScene">
       <UniqueIdentifier>{5e48e982-377e-4c3a-95ef-83de5365b706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\[01]NewGame">
+      <UniqueIdentifier>{dc042342-c3e3-44b1-b0f1-af9ad66f023d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

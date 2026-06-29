@@ -3,6 +3,7 @@
 #include <assert.h>
 #include "BootScene.h"
 #include "TestScene.h"
+#include "MovieButtonTest.h"
 
 SceneBase* SceneFactory::CreateFirst(){
 	return new BootScene();
@@ -11,6 +12,9 @@ SceneBase* SceneFactory::CreateFirst(){
 SceneBase * SceneFactory::Create(const std::string & name){
 	if (name == "TEST"){
 		return new TestScene();
+	}
+	if (name == "MOVIE"){
+		return new MovieButtonTest();
 	}
 
 
